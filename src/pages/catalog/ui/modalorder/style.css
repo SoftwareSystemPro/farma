@@ -1,0 +1,28 @@
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #fff !important;
+}
+
+.ant-tabs-tab{
+    padding: 10px 20px !important;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active{
+    background-color: #09C60D;
+}
+
+.ant-tabs .ant-tabs-tab:hover{
+    color: #09C60D;
+}
+
+.ant-tabs-nav .ant-tabs-ink-bar-animated{
+    display: none !important;
+}
+
+.ant-tabs-content-holder{
+    height: max-content;
+}

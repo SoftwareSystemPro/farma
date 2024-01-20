@@ -1,0 +1,101 @@
+.form {
+    .input_wrapper {
+        width: 100%;
+        margin-bottom: 20px;
+
+
+        .input {
+            width: 100% !important;
+            background-color: #F5F5F5;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            border: none;
+            padding: 10px 20px;
+        }
+
+        .input,
+        .textArea {
+            margin-top: 10px;
+            color: #000;
+            font-size: 14px !important;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            font-family: "Jost";
+        }
+
+        .textArea {
+            background: #F5F5F5;
+            border: none;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            padding: 12px;
+        }
+
+        .input_label {
+            margin-left: 10px;
+            color: #000;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .select {
+            background-color: #F5F5F5 !important;
+            border: none !important;
+            width: 100% !important;
+            margin-top: 10px;
+            height: 40px;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+
+            .ant-select-selector {
+                border: 1px solid #fff !important;
+                background: #F5F5F5 !important;
+
+                .ant-select-selection-item {
+                    color: #000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    font-family: "Jost" !important;
+                }
+            }
+        }
+    }
+
+    .form_btn {
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: #09C60D;
+        color: #fff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        cursor: pointer;
+    }
+}
+
+.btn_wrapper {
+    margin-top: 240px;
+}
